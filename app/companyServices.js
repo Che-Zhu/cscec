@@ -32,7 +32,7 @@ export default function CompanyServices() {
                 </p>
             </div>
 
-            <div className="mt-16 flex flex-col md:flex-row items-center md:justify-between ">
+            <div className="mt-12 md:mt-16 flex flex-col md:flex-row items-center md:justify-between ">
                 <ShowcaseCard
                     showcasePicture={residentialConstruction}
                     constructionType="Residential Construction"

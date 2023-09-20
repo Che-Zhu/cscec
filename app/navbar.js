@@ -3,9 +3,9 @@
 export default function Navbar() {
     return (
         <nav className="bg-white">
-            <div className="flex flex-wrap items-center justify-between mx-auto p-6 md:px-12">
+            <div className="flex flex-wrap items-center justify-between mx-auto px-6 py-4 md:px-12">
                 <a href="https://3bur.cscec.com">
-                    <img src="/favicon.ico" alt="China Construction Third Engineering Bureau Group" className="h-12 mr-3"/>
+                    <img src="/favicon.ico" alt="China Construction Third Engineering Bureau Group" className="h-10"/>
                 </a>
 
                 <button type="button" className="md:hidden" onClick={navCollapseToggle}>
