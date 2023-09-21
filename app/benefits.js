@@ -14,7 +14,7 @@ function AchievementFigure({stat, description}) {
 
 export default function Benefits() {
     return (
-        <div className="mt-20 md:mt-40 px-8 md:px-16 flex flex-col md:flex-row md:items-center md:justify-between">
+        <div className="my-20 md:my-40 px-8 md:px-16 flex flex-col md:flex-row md:items-center md:justify-between">
             <div className="md:flex-1 md:mr-32">
                 <p className="text-sm font-bold pb-2 md:pb-4">Excellence</p>
                 <h2 className="text-3xl font-bold pb-4">Experience, Quality, Reputation - Our Commitment to You</h2>

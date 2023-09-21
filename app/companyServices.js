@@ -1,7 +1,8 @@
 import Image from "next/image"
-import residentialConstruction from "./residential_construction.png"
-import commercialConstruction from "./commercial_construction.jpeg"
-import industrialConstruction from "./industrial_construction.png"
+
+import residentialConstruction from "/public/residential_construction.png"
+import commercialConstruction from "/public/commercial_construction.jpeg"
+import industrialConstruction from "/public/industrial_construction.png"
 
 function ShowcaseCard({showcasePicture, constructionType, description}) {
     return (
@@ -23,7 +24,7 @@ function ShowcaseCard({showcasePicture, constructionType, description}) {
 
 export default function CompanyServices() {
     return (
-        <div className="mt-10 md:mt-20 px-8 md:px-16 text-center">
+        <div className="my-10 md:my-20 px-8 md:px-16 text-center">
             <div className="flex flex-col justify-between items-center md:px-64">
                 <p className="text-sm font-bold pb-2 md:pb-4">Building</p>
                 <h2 className="text-3xl font-bold pb-4">Experienced Construction Company for All Your Needs</h2>
