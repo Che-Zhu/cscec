@@ -22,7 +22,7 @@ export default function CompletedProjects() {
     return (
         <div className="my-10 md:my-20 px-8 md:px-16 text-center">
             <h2 className="text-3xl font-bold pb-4">Completed Projects</h2>
-            <p className="text-sm font-light mb-10">Browse through our stunning portfolio of construction projects</p>
+            <p className="text-sm font-light mb-10">Browse through our stunning portfolio of construction projects.</p>
 
             <div className="flex flex-row flex-wrap justify-between gap-y-6 md:gap-y-10">
                 <ProjectCard

@@ -9,16 +9,16 @@ import luoJiaLin from "public/teamMembers/luo_jia_lin.jpeg"
 
 function TeamMemberCard({picture, name, title, description}) {
     return (
-        <div className="mb-8">
+        <div className="mb-8 md:w-2/6 md:px-4 md:gap-x-4">
             <Image
                 src={picture}
-                width={'500'}
-                height={'500'}
-                className="w-11/12 md:w-2/6 h-auto md:px-4 mb-2"
+                width={1000}
+                height={1000}
+                className="w-full h-2/3 mb-2 object-cover shadow-2xl"
             />
             <p className="text-sm font-bold">{name}</p>
-            <p className="text-sm font-light mb-2">{title}</p>
-            <ul className="text-xs font-light list-disc">
+            <p className="text-xs font-light mb-2">{title}</p>
+            <ul className="text-xs font-light list-disc md:list-inside">
                 {description.map(item => <li>{item}</li>)}
             </ul>
         </div>
@@ -33,7 +33,7 @@ export default function CompanyLeaders() {
             <h2 className="text-3xl font-bold pb-4">Meet Our Team</h2>
             <p className="text-sm font-light">Get to know the talented individuals who power our company.</p>
 
-            <div className="mt-8">
+            <div className="mt-8 flex flex-col md:flex-row md:flex-wrap justify-between">
                 <TeamMemberCard
                     picture={chenWeiGuo}
                     name={'WeiGuo Chen'}
@@ -70,15 +70,6 @@ export default function CompanyLeaders() {
                             'Professor-level Senior Engineer.', 
                             'Recipient of Special Government Allowance from the State Council.',
                             'Member of the Expert Committee of the China Construction Industry Association.', 
-                            'Vice President of the China Steel Structure Association.', 
-                            'Council Member of the China Civil Engineering Society.', 
-                            'Member of the Expert Committee of China Construction Group.', 
-                            'Deputy Director of the Academic Committee on Super High-rise Buildings.',
-                            'Awardee of the National May Day Labor Medal.',
-                            'Awardee of the National Innovation Pioneer Award.',
-                            'Awardee of the National Model Worker honor.',
-                            'Awardee of the Guanghua Engineering Science and Technology Award.',
-                            'Awardee of the Outstanding Engineer Award from the China International Science Exchange Foundation.'
                         ]
                     }
                 />
