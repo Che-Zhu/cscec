@@ -9,7 +9,7 @@ import luoJiaLin from "public/teamMembers/luo_jia_lin.jpeg"
 
 function TeamMemberCard({picture, name, title, description}) {
     return (
-        <div className="mb-8 md:w-2/6 md:px-4 md:gap-x-4">
+        <div className="mb-8 md:w-2/6 md:px-4">
             <Image
                 src={picture}
                 width={1000}
@@ -26,7 +26,7 @@ function TeamMemberCard({picture, name, title, description}) {
     )
 }
 
-export default function CompanyLeaders() {
+export default function CompanyTeam() {
     return (
         <div className="my-10 md:my-20 px-8 md:px-16">
             <p className="text-sm font-bold pb-2 md:pb-4">Experienced</p>
@@ -112,6 +112,14 @@ export default function CompanyLeaders() {
                     }
                 />
             </div>
+
+            <h3 className="text-2xl font-bold mt-8 pb-2">Join Us!</h3>
+            <p className="text-sm font-light">Explore exciting career opportunities in our ever-growing company.</p>
+
+            <div className="mt-6">
+                <a className="border px-6 py-3 text-sm font-light border-black">Available Positions</a>
+            </div>
+            
         </div>
     )
 }
