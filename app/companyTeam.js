@@ -19,7 +19,7 @@ function TeamMemberCard({picture, name, title, description}) {
             <p className="text-sm font-bold">{name}</p>
             <p className="text-xs font-light mb-2">{title}</p>
             <ul className="text-xs font-light list-disc md:list-inside">
-                {description.map(item => <li>{item}</li>)}
+                {description.map((item, index) => <li key={index}>{item}</li>)}
             </ul>
         </div>
 
