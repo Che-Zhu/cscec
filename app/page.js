@@ -6,6 +6,7 @@ import CompanyServices from './companyServices'
 import Benefits from './benefits'
 import CompletedProjects from './completedProjects'
 import CompanyTeam from './companyTeam'
+import Footer from './footer'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Benefits></Benefits>
       <CompletedProjects></CompletedProjects>
       <CompanyTeam></CompanyTeam>
+      <Footer></Footer>
     </main>
   )
 }
