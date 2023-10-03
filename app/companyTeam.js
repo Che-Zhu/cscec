@@ -14,6 +14,7 @@ function TeamMemberCard({picture, name, title, description}) {
                 src={picture}
                 width={1000}
                 height={1000}
+                alt={`${name}, ${title}`}
                 className="w-full h-2/3 mb-2 object-cover shadow-2xl"
             />
             <p className="text-sm font-bold">{name}</p>

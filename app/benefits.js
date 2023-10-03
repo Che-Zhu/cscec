@@ -42,6 +42,7 @@ export default function Benefits() {
                 src={companyProfile}
                 width={300}
                 height={300}
+                alt="Company's Profile"
                 className="border shadow-lg w-96 max-h-auto flex-none"
 
             />

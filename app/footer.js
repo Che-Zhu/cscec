@@ -53,6 +53,7 @@ export default function Footer() {
                     src={logo}
                     width={50}
                     height={50}
+                    alt="Company Logo"
                     className="mb-4 md:mb-0"
                 />
 

@@ -13,6 +13,7 @@ function ProjectCard({projectImage}) {
             src={projectImage}
             width={500}
             height={500}
+            alt="Completed Projects"
             className="w-1/2 md:w-2/6 h-auto px-2 md:px-4"
         />
     )

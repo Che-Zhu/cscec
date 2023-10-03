@@ -11,6 +11,7 @@ function ShowcaseCard({showcasePicture, constructionType, description}) {
                 src={showcasePicture}
                 width={500}
                 height={500}
+                alt={constructionType}
                 style={{
                     width: '100%',
                     height: '200px',
