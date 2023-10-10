@@ -1,11 +1,19 @@
 'use client'
 
+import Image from 'next/image'
+
+import logo from '/public/CSCEC_Logo.svg'
+
 export default function Navbar() {
     return (
-        <nav className="bg-white">
-            <div className="flex flex-wrap items-center justify-between mx-auto px-6 py-4 md:px-12">
+        <nav>
+            <div className="flex flex-wrap items-center justify-between px-5 py-4 md:px-12">
                 <a href="https://3bur.cscec.com">
-                    <img src="/favicon.ico" alt="China Construction Third Engineering Bureau Group" className="h-10"/>
+                    <Image
+                        src={logo}
+                        alt='China Construction Third Engineering Bureau Group'
+
+                    />
                 </a>
 
                 <button type="button" className="md:hidden" onClick={navCollapseToggle}>

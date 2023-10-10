@@ -2,3 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    body {
+        @apply bg-neutrals-10 text-neutrals-100;
+    }
+
+    h1 {
+        @apply text-primary-100 text-2xl;
+    }
+
+    h2 {
+        @apply text-neutrals-100 text-4xl font-bold;
+    }
+}
+
+@layer components {
+    .descriptive-text {
+        @apply text-neutrals-80 text-xs mt-7;
+    }
+
+    .section-tag {
+        @apply text-primary-100 text-xs font-bold mb-3 md:mb-4;
+    }
+}

@@ -17,6 +17,12 @@ module.exports = {
         '3/4screen': '75vh',
       }
     },
+    colors: {
+      'primary-100': '#2981BD',
+      'neutrals-10': '#ECF1F3',
+      'neutrals-80': '#495057',
+      'neutrals-100': '#212529',
+    }
   },
   plugins: [
     require("flowbite/plugin")

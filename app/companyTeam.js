@@ -1,11 +1,11 @@
 import Image from "next/image"
 
-import chenWeiGuo from "/public/teamMembers/chen_wei_guo.webp"
-import zhouSheng from "/public/teamMembers/zhou_sheng.webp"
-import zhangKun from "/public/teamMembers/zhang_kun.webp"
-import chenZhenMin from "/public/teamMembers/chen_zhen_min.jpeg"
-import wangShengMin from "public/teamMembers/wang_sheng_min.webp"
-import luoJiaLin from "public/teamMembers/luo_jia_lin.jpeg"
+import chenWeiGuo from "/public/teamMembers/chen_wei_guo.png"
+import zhouSheng from "/public/teamMembers/zhou_sheng.png"
+import zhangKun from "/public/teamMembers/zhang_kun.png"
+import chenZhenMin from "/public/teamMembers/chen_zhen_min.png"
+import wangShengMin from "public/teamMembers/wang_sheng_min.png"
+import luoJiaLin from "public/teamMembers/luo_jia_lin.png"
 
 function TeamMemberCard({picture, name, title, description}) {
     return (
@@ -15,11 +15,11 @@ function TeamMemberCard({picture, name, title, description}) {
                 width={1000}
                 height={1000}
                 alt={`${name}, ${title}`}
-                className="w-full h-2/3 mb-2 object-cover shadow-2xl"
+                className="w-full mb-2"
             />
-            <p className="text-sm font-bold">{name}</p>
-            <p className="text-xs font-light mb-2">{title}</p>
-            <ul className="text-xs font-light list-disc md:list-inside">
+            <p className="text-xl font-bold text-neutrals-100">{name}</p>
+            <p className="text-sm text-primary-100 mb-2">{title}</p>
+            <ul className="text-neutrals-80 list-disc list-inside">
                 {description.map((item, index) => <li key={index}>{item}</li>)}
             </ul>
         </div>
@@ -29,12 +29,12 @@ function TeamMemberCard({picture, name, title, description}) {
 
 export default function CompanyTeam() {
     return (
-        <div className="my-10 md:my-20 px-8 md:px-16">
-            <p className="text-sm font-bold pb-2 md:pb-4">Experienced</p>
-            <h2 className="text-3xl font-bold pb-4">Meet Our Team</h2>
-            <p className="text-sm font-light">Get to know the talented individuals who power our company.</p>
+        <div className="my-20 md:my-40 px-8 md:px-16">
+            <p className="section-tag">Experienced</p>
+            <h2>Meet Our Team</h2>
+            <p className="descriptive-text">Get to know the talented individuals who power our company.</p>
 
-            <div className="mt-8 flex flex-col md:flex-row md:flex-wrap justify-between">
+            <div className="mt-12 flex flex-col md:flex-row md:flex-wrap justify-between mb-12">
                 <TeamMemberCard
                     picture={chenWeiGuo}
                     name={'WeiGuo Chen'}
@@ -114,11 +114,11 @@ export default function CompanyTeam() {
                 />
             </div>
 
-            <h3 className="text-2xl font-bold mt-8 pb-2">Join Us!</h3>
-            <p className="text-sm font-light">Explore exciting career opportunities in our ever-growing company.</p>
+            <h2>Join Us!</h2>
+            <p className="descriptive-text">Explore exciting career opportunities in our ever-growing company.</p>
 
-            <div className="mt-6">
-                <a className="border px-6 py-3 text-sm font-light border-black">Available Positions</a>
+            <div className="my-8">
+                <a className="px-5 py-4 text-sm bg-primary-100 text-neutrals-10 rounded">Available Positions</a>
             </div>
             
         </div>

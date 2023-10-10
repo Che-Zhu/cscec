@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 import residentialConstruction from "/public/residential_construction.png"
-import commercialConstruction from "/public/commercial_construction.jpeg"
+import commercialConstruction from "/public/commercial_construction.png"
 import industrialConstruction from "/public/industrial_construction.png"
 
 function ShowcaseCard({showcasePicture, constructionType, description}) {
@@ -9,27 +9,22 @@ function ShowcaseCard({showcasePicture, constructionType, description}) {
         <div className="mb-8">
             <Image
                 src={showcasePicture}
-                width={500}
-                height={500}
                 alt={constructionType}
-                style={{
-                    width: '100%',
-                    height: '200px',
-                }}
+                className="rounded"
             />
-            <p className="text-xl font-bold mt-2">{constructionType}</p>
-            <p className="text-sm font-light mt-2">{description}</p>
+            <p className="font-bold text-2xl mt-3">{constructionType}</p>
+            <p className="descriptive-text mt-1">{description}</p>
         </div>
     )
 }
 
 export default function CompanyServices() {
     return (
-        <div className="my-10 md:my-20 px-8 md:px-16 text-center">
+        <div className="py-20 md:py-40 px-8 md:px-16 text-center">
             <div className="flex flex-col justify-between items-center md:px-64">
-                <p className="text-sm font-bold pb-2 md:pb-4">Building</p>
-                <h2 className="text-3xl font-bold pb-4">Experienced Construction Company for All Your Needs</h2>
-                <p className="text-sm font-light">We specialize in residential construction, commercial construction, and industrial construction.
+                <p className="section-tag">Building</p>
+                <h2>Experienced Construction Company for All Your Needs</h2>
+                <p className="descriptive-text">We specialize in residential construction, commercial construction, and industrial construction.
                     Our team of experts is dedicated to delivering high-quality results on every project.
                 </p>
             </div>
@@ -54,9 +49,9 @@ export default function CompanyServices() {
                 />
             </div>
 
-            <div className="flex-row my-8">
-                <a className="border px-6 py-3 text-sm font-light border-black mr-5">Learn</a>
-                <a className="border px-4 py-3 text-sm font-light border-white">{`Contact  >`}</a>
+            <div className="flex-row pt-10">
+                <a className="px-5 py-3 mr-10 text-sm bg-primary-100 text-neutrals-10 rounded">Learn</a>
+                <a className="px-5 py-3 text-sm text-neutrals-100">{`Contact  >`}</a>
               </div>
             
             

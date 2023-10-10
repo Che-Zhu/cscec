@@ -1,4 +1,7 @@
 import headerBackground from "./header-background.gif"
+import headerBackgroundImage from '/public/header_background.png'
+
+
 
 const headerStyle = {
   backgroundImage: `url(${headerBackground.src})`,
@@ -6,20 +9,22 @@ const headerStyle = {
   height: '100%'
 }
 
+const backgroundDivStyle = {
+  backgroundImage: `url(${headerBackgroundImage.src})`,
+  width: '100%',
+  height: '100%',
+}
+
 export default function Header() {
   return (
-    <header className="bg-white">
-        <div className="h-3/4screen relative">
-            <div className="absolute inset-0 bg-gray-800 opacity-70"></div>
-            <div className="z-10 absolute top-1/4 md:top-1/3 left-0 pl-8 pr-16 md:px-16 text-white">
-              <h1 className="text-3xl font-bold mb-5 md:text-5xl">Building Dreams, One Project at a Time</h1>
-              <p className="text-sm font-light mb-8">With our expertise and commitment to quality, we deliver exceptional construction projects that exceed expectations.</p>
-              <div className="flex-row">
-                <a className="border px-4 py-3 text-sm font-light border-black bg-black mr-5">Learn More</a>
-                <a className="border px-4 py-3 text-sm font-light border-white">Contact Us</a>
-              </div>
-            </div>
-            <div className="bg-cover bg-center bg-no-repeat" style={headerStyle}></div>
+    <header>
+        <div className="h-3/4screen">
+          <div className="bg-cover bg-center bg-no-repeat px-8 text-center" style={backgroundDivStyle}>
+            <h1 className="pt-36">Building Dreams, <br/> One Project at a time.</h1>
+            <p className="descriptive-text">With our expertise and commitment to quality, 
+              we deliver exceptional construction projects that exceed expecations.</p>
+          </div>
+
         </div>
     </header> 
   );
