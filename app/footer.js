@@ -4,8 +4,8 @@ import logo from "/public/CSCEC_Logo.svg"
 
 export default function Footer() {
     return (
-        <footer className="mt-20 md:mt-40 mb-8 px-8 md:px-16">
-            <hr className="bg-gray-900 border-0 h-px mb-12 md:mb-20" />
+        <footer className="mt-20 mb-8 px-8 md:px-16">
+            <hr className="bg-gray-900 border-0 h-px mb-12" />
 
             <div className="flex flex-col md:flex-row md:justify-between gap-y-8">
                 <div>
@@ -46,7 +46,7 @@ export default function Footer() {
                 </div>
             </div>
 
-            <hr className="bg-gray-900 border-0 h-px mt-12 md:mt-20" />
+            <hr className="bg-gray-900 border-0 h-px mt-12" />
 
             <div className="mt-4 flex flex-row justify-between items-center">
                 <Image

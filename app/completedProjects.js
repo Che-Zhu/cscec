@@ -21,7 +21,7 @@ function ProjectCard({projectImage}) {
 
 export default function CompletedProjects() {
     return (
-        <div className="my-20 md:my-40 px-8 md:px-16 text-center">
+        <div className="my-20 px-8 md:px-16 text-center">
             <h2>Completed Projects</h2>
             <p className="descriptive-text">Browse through our stunning portfolio of construction projects.</p>
 

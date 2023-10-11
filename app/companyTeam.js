@@ -9,7 +9,7 @@ import luoJiaLin from "public/teamMembers/luo_jia_lin.png"
 
 function TeamMemberCard({picture, name, title, description}) {
     return (
-        <div className="mb-8 md:w-2/6 md:px-4">
+        <div className="mb-8 md:w-2/6 md:px-6">
             <Image
                 src={picture}
                 width={1000}
@@ -19,7 +19,7 @@ function TeamMemberCard({picture, name, title, description}) {
             />
             <p className="text-xl font-bold text-neutrals-100">{name}</p>
             <p className="text-sm text-primary-100 mb-2">{title}</p>
-            <ul className="text-neutrals-80 list-disc list-inside">
+            <ul className="text-sm text-neutrals-80 list-disc list-inside">
                 {description.map((item, index) => <li key={index}>{item}</li>)}
             </ul>
         </div>
@@ -29,7 +29,7 @@ function TeamMemberCard({picture, name, title, description}) {
 
 export default function CompanyTeam() {
     return (
-        <div className="my-20 md:my-40 px-8 md:px-16">
+        <div className="my-20 px-8 md:px-16">
             <p className="section-tag">Experienced</p>
             <h2>Meet Our Team</h2>
             <p className="descriptive-text">Get to know the talented individuals who power our company.</p>

@@ -18,7 +18,7 @@
 
 @layer components {
     .descriptive-text {
-        @apply text-neutrals-80 text-xs mt-7;
+        @apply text-neutrals-80 text-xs my-4;
     }
 
     .section-tag {

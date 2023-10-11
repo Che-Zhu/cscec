@@ -6,11 +6,11 @@ import industrialConstruction from "/public/industrial_construction.png"
 
 function ShowcaseCard({showcasePicture, constructionType, description}) {
     return (
-        <div className="mb-8">
+        <div>
             <Image
                 src={showcasePicture}
                 alt={constructionType}
-                className="rounded"
+                className="rounded md:px-4"
             />
             <p className="font-bold text-2xl mt-3">{constructionType}</p>
             <p className="descriptive-text mt-1">{description}</p>
@@ -20,7 +20,7 @@ function ShowcaseCard({showcasePicture, constructionType, description}) {
 
 export default function CompanyServices() {
     return (
-        <div className="py-20 md:py-40 px-8 md:px-16 text-center">
+        <div className="py-20 px-8 md:px-16 text-center">
             <div className="flex flex-col justify-between items-center md:px-64">
                 <p className="section-tag">Building</p>
                 <h2>Experienced Construction Company for All Your Needs</h2>
@@ -49,9 +49,9 @@ export default function CompanyServices() {
                 />
             </div>
 
-            <div className="flex-row pt-10">
-                <a className="px-5 py-3 mr-10 text-sm bg-primary-100 text-neutrals-10 rounded">Learn</a>
-                <a className="px-5 py-3 text-sm text-neutrals-100">{`Contact  >`}</a>
+            <div className="flex-row pt-20">
+                <a className="px-6 py-3 mr-10 text-sm bg-primary-100 text-neutrals-10 rounded">Learn</a>
+                <a className="px-6 py-3 text-sm text-neutrals-100">{`Contact  >`}</a>
               </div>
             
             
