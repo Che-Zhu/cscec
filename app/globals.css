@@ -24,4 +24,9 @@
     .section-tag {
         @apply text-primary-100 text-xs font-bold mb-3 md:mb-4;
     }
+
+    .button {
+        @apply px-6 py-3 mr-10 text-sm bg-primary-100 hover:bg-primary-110 active:bg-primary-120 text-neutrals-10 rounded;
+    }
+
 }

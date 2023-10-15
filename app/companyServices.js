@@ -50,7 +50,8 @@ export default function CompanyServices() {
             </div>
 
             <div className="flex-row pt-20">
-                <a className="px-6 py-3 mr-10 text-sm bg-primary-100 text-neutrals-10 rounded">Learn</a>
+                <a className="button">Learn</a>
+
                 <a className="px-6 py-3 text-sm text-neutrals-100">{`Contact  >`}</a>
               </div>
             

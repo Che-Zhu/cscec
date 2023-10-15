@@ -19,7 +19,7 @@ function TeamMemberCard({picture, name, title, description}) {
             />
             <p className="text-xl font-bold text-neutrals-100">{name}</p>
             <p className="text-sm text-primary-100 mb-2">{title}</p>
-            <ul className="text-sm text-neutrals-80 list-disc list-inside">
+            <ul className="text-sm text-neutrals-80 list-disc list-inside marker:text-primary-100">
                 {description.map((item, index) => <li key={index}>{item}</li>)}
             </ul>
         </div>
@@ -118,7 +118,7 @@ export default function CompanyTeam() {
             <p className="descriptive-text">Explore exciting career opportunities in our ever-growing company.</p>
 
             <div className="my-8">
-                <a className="px-5 py-4 text-sm bg-primary-100 text-neutrals-10 rounded">Available Positions</a>
+                <a className="button">Available Positions</a>
             </div>
             
         </div>

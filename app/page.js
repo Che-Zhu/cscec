@@ -1,12 +1,12 @@
 
 
-import Navbar from './navbar'
+import Navbar from './components/navbar'
 import Header from './header'
 import CompanyServices from './companyServices'
 import Benefits from './benefits'
 import CompletedProjects from './completedProjects'
 import CompanyTeam from './companyTeam'
-import Footer from './footer'
+import Footer from './components/footer'
 
 export default function Home() {
   return (

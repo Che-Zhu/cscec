@@ -18,6 +18,8 @@ module.exports = {
       }
     },
     colors: {
+      'primary-120': '#1A5175',
+      'primary-110': '#216897',
       'primary-100': '#2981BD',
       'neutrals-10': '#ECF1F3',
       'neutrals-80': '#495057',
