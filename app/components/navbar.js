@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image'
+import Link from 'next/link'
 
 import logo from '/public/CSCEC_Logo.svg'
 
@@ -23,10 +24,10 @@ export default function Navbar() {
                 <div className="hidden w-full md:block md:w-auto" id="navbar-hidden-area">
                     <ul className="flex flex-col pt-8 space-y-4 md:flex-row md:pt-0 md:space-x-8 md:space-y-0 font-light">
                         <li>
-                            <a className="block">Home</a>
+                            <Link href="/">Home</Link>
                         </li>
                         <li>
-                            <a className="block">About Us</a>
+                            <Link href="/company_profile">About Us</Link>
                         </li>
                         <li>
                             <a className="block">News Room</a>

@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 import chenWeiGuo from "/public/teamMembers/chen_wei_guo.png"
 import zhouSheng from "/public/teamMembers/zhou_sheng.png"
@@ -117,8 +118,9 @@ export default function CompanyTeam() {
             <h2>Join Us!</h2>
             <p className="descriptive-text">Explore exciting career opportunities in our ever-growing company.</p>
 
-            <div className="my-8">
-                <a className="button">Available Positions</a>
+            <div className="my-8 button inline-block">
+                <Link href="http://zhaopin.cscec3b.com.cn/">Available Positions</Link>
+
             </div>
             
         </div>
