@@ -5,7 +5,7 @@ import { ArticleHeading, ArticleSectionHeading, ArticleText } from "@/app/compon
 
 export default function Page() {
     return (
-        <div className="">
+        <div>
             <Navbar/>
 
             <article className="my-10 md:mt-20 px-8 md:px-16">
