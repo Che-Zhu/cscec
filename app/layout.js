@@ -24,7 +24,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${poppins.className}, selection:bg-secondary-lighter`}>
+      <body className={`${poppins.className} selection:bg-secondary-lighter max-w-screen-2xl`}>
         <Navbar />
         <main>{children}</main>
         <Footer />

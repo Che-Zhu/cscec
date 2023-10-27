@@ -63,7 +63,7 @@ function HeroSection() {
 				</div>
 
 				<div
-					className="bg-cover bg-bottom md:bg-left-bottom bg-no-repeat px-8 text-center md:basis-2/3 md:rounded"
+					className="bg-cover bg-bottom md:bg-left-bottom bg-no-repeat px-8 md:px-0 md:mx-8 text-center md:basis-2/3 md:rounded"
 					style={backgroundDivStyle}
 				></div>
 			</div>
@@ -82,7 +82,7 @@ function BusinessScope() {
 							</p>
 					</div>
 
-					<div className="mt-12 md:mt-16 flex flex-col md:flex-row items-center md:justify-between ">
+					<div className="mt-12 md:mt-16 flex flex-col md:flex-row items-center md:items-start md:justify-between ">
 							<ShowcaseCard
 									showcasePicture={residentialConstruction}
 									constructionType="Residential Construction"
