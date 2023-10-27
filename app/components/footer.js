@@ -14,7 +14,7 @@ export default function Footer() {
 
                     <div className="flex flex-col items-start">
                         <Link className="mb-2 text-neutrals-80 text-sm" href="/company_profile">Company Profile</Link>
-                        <p className="mb-2 text-neutrals-80 text-sm">Organizational Structure</p>
+                        <Link className="mb-2 text-neutrals-80 text-sm" href="/organizational_structure">Organizational Structure</Link>
                         <p className="mb-2 text-neutrals-80 text-sm">Contact Us</p>
                         <p className="mb-2 text-neutrals-80 text-sm">Career</p>
                     </div>
