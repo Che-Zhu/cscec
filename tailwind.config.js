@@ -21,6 +21,7 @@ module.exports = {
       'primary-120': '#1A5175',
       'primary-110': '#216897',
       'primary-100': '#2981BD',
+      'secondary_lighter': '#7AB5D1',
       'neutrals-10': '#ECF1F3',
       'neutrals-80': '#495057',
       'neutrals-100': '#212529',
