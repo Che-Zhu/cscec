@@ -60,7 +60,7 @@ export default function Footer() {
                     <h4 className="text-xl font-bold mb-2 md:mb-6">Social Responsibilities</h4>
 
                     <div className="flex flex-col items-start">
-                        <p className="mb-2 text-neutrals-80 text-sm">Our Approach</p>
+                        <Link className="mb-2 text-neutrals-80 text-sm" href="/our_guiding_principles">Our Guiding Principles</Link>
                         <p className="mb-2 text-neutrals-80 text-sm">Social Responsibility Report</p>
                     </div>
 
