@@ -9,7 +9,7 @@ export default function Navbar() {
     return (
         <nav>
             <div className="flex flex-wrap items-center justify-between px-5 py-4 md:px-12">
-                <a href="https://3bur.cscec.com">
+                <a href="https://cscec.che-zhu.me">
                     <Image
                         src={logo}
                         alt='China Construction Third Engineering Bureau Group'
@@ -30,13 +30,13 @@ export default function Navbar() {
                             <Link href="/company_profile">About Us</Link>
                         </li>
                         <li>
-                            <a className="block">News Room</a>
+                            <Link href="https://3bur.cscec.com/xwzx11/gskx11/">News Room</Link>
                         </li>
                         <li>
                             <a className="block">Expertise</a>
                         </li>
                         <li>
-                            <a className="block">Stunning Projects</a>
+                            <Link href="https://3bur.cscec.com/yjsl11/jpgc11/cgc/">Stunning Projects</Link>
                         </li>
                         <li>
                             <a className="block">Careers</a>

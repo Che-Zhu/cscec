@@ -16,7 +16,7 @@ export default function Footer() {
                         <Link className="mb-2 text-neutrals-80 text-sm" href="/company_profile">Company Profile</Link>
                         <Link className="mb-2 text-neutrals-80 text-sm" href="/organizational_structure">Organizational Structure</Link>
                         <p className="mb-2 text-neutrals-80 text-sm">Contact Us</p>
-                        <p className="mb-2 text-neutrals-80 text-sm">Career</p>
+                        <Link className="mb-2 text-neutrals-80 text-sm" href="http://zhaopin.cscec3b.com.cn/">Career</Link>
                     </div>
 
                 </div>
